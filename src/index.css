@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-arabic: 'Tajawal', 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+  }
+
+  [dir="rtl"] body {
+    font-family: var(--font-arabic);
+  }
+}
+
+/* Custom smooth transitions & scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 42, 67, 0.15);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 42, 67, 0.3);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Radar chart animation & SVG tweaks */
+.recharts-polar-grid-angle line,
+.recharts-polar-grid-concentric circle {
+  stroke-dasharray: 2 2;
+}
+
+/* Pulse animation for AI status */
+@keyframes aiPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+}
+
+.ai-glow {
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.25);
+}
+
+.dark .ai-glow {
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.4);
+}
