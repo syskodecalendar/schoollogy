@@ -38,7 +38,7 @@ export const Sidebar: React.FC = () => {
             </div>
             <div className="truncate">
               <h1 className="font-extrabold text-sm text-white tracking-wide truncate">
-                {isAr ? whiteLabelConfig.platformNameAr || 'سكولوجي الذكي' : whiteLabelConfig.platformName || 'Schoollogy AI'}
+                {isAr ? whiteLabelConfig.platformNameAr || 'سكولوجي الذكي' : whiteLabelConfig.platformName || 'Schoology AI'}
               </h1>
               <p className="text-[10px] text-teal-400 font-medium truncate">
                 {currentRole}
