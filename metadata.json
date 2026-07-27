@@ -1,5 +1,5 @@
 {
-  "name": "Schoollogy AI",
+  "name": "Schoology AI",
   "description": "Intelligent Education, Therapy and Child Development Platform",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
