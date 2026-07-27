@@ -293,7 +293,7 @@ const MainContent: React.FC = () => {
           {/* High Density Theme Footer */}
           <footer className="bg-white dark:bg-[#102A43] border-t border-slate-200 dark:border-slate-800 py-2.5 px-6 flex flex-col sm:flex-row justify-between items-center text-[10px] text-slate-400 gap-1 mt-auto">
             <p>AI-generated decision-support insight. Final review and approval by a qualified professional is required.</p>
-            <p>&copy; 2026 Schoollogy AI Enterprise White-Label Platform</p>
+            <p>&copy; 2026 Schoology AI Enterprise White-Label Platform</p>
           </footer>
         </div>
       </div>
