@@ -1,4 +1,4 @@
-// Global Types for Schoollogy AI Platform
+// Global Types for Schoology AI Platform
 
 export type Language = 'en' | 'ar';
 export type ThemeMode = 'light' | 'dark';

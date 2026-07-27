@@ -836,7 +836,7 @@ export const mockMarketplaceItems: MarketplaceItem[] = [
 ];
 
 export const defaultWhiteLabelConfig: WhiteLabelConfig = {
-  platformName: 'Schoollogy AI',
+  platformName: 'Schoology AI',
   platformNameAr: 'سكولوجي الذكي',
   tagline: 'Intelligent Education, Therapy and Child Development Platform',
   logoUrl: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=120&q=80',
